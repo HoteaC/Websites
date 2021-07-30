@@ -1,0 +1,64 @@
+body {
+    background-color: #7e8691;
+}
+
+.top_section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top_img{
+    width: 100px;
+    height: 100px;
+}
+
+.main_content{
+    background-color: antiquewhite;
+}
+
+.top_tag a{
+    background-color: burlywood;
+    color: black;
+    margin-left: 10px;
+    padding: 5px 40px;
+    border-style:solid;
+    border-color: black;
+}
+
+#line{
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.nav_bar{
+    border: 2px solid black;
+    width: 28%;
+    height: 100%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.page_content{
+    border: 2px solid black;
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: antiquewhite;
+}
+
+.nav_bar h2{
+    margin-left: 10px;
+}
+
+.updates {
+    font-size: larger;
+    margin: 20px;
+}
+
+.updates li{
+    margin-top: 10px;
+}
+
+.top_section h1{
+    padding-top: 15px;
+    margin-left: 15px;
+}
