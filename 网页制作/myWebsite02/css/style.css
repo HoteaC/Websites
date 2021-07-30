@@ -1,0 +1,80 @@
+body{
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/launching.jpg");
+    background-size: cover;
+}
+
+.main_content{
+    text-align: center;
+    box-shadow: 0 0 10px #00000070;
+}
+
+.top_section{
+    background-color: #575fcf;
+    padding: 50px 0 50px 0;
+    color: #ecf0f1;
+}
+
+.top_section img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.top_section p{
+    margin: 5px 0 5px 0;
+}
+
+.top_section .name{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.top_section .email, .phone{
+    font-size: 18px;
+
+}
+
+.mid_section, .bottom_section {
+    background-color: #ecf0f1;
+}
+
+.mid_section {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+
+.social i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin:20px;
+}
+
+.bottom_section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom_section span{
+    display: block;
+}
+
+.border {
+    width: 1px;
+    height: 50px;
+    background-color:  #d3dae2;
+    margin-left: 50px;
+    margin-right: 40px;
+}
